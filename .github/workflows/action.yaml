@@ -4,7 +4,7 @@ on: push
 
 jobs:
   init:
-    runs-on: jitesh-test
+    runs-on: wrong-label
     steps:
       - run: echo "Hello Jitesh here"
       - run: echo $HOSTNAME
