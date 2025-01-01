@@ -4,7 +4,7 @@ on: push
 
 jobs:
   init:
-    runs-on: wrong-label
+    runs-on: self-hosted
     steps:
       - run: echo "Hello Jitesh here"
       - run: echo $HOSTNAME
